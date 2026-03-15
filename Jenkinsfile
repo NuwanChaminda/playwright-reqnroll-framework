@@ -1,10 +1,6 @@
 pipeline {
     agent any
-
-    tools {
-        dotnet 'dotnet8'
-    }
-
+s
     stages {
 
         stage('Checkout') {
