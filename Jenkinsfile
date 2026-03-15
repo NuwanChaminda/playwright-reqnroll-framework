@@ -4,7 +4,8 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/NuwanChaminda/playwright-reqnroll-framework.git'
+                git branch: 'main',
+                url: 'https://github.com/NuwanChaminda/playwright-reqnroll-framework.git'
             }
         }
 
