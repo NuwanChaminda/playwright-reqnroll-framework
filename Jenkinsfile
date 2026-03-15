@@ -1,6 +1,5 @@
 pipeline {
     agent any
-s
     stages {
 
         stage('Checkout') {
